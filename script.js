@@ -6,8 +6,6 @@ function getLocalStorage(key) {
     }
 }
 
-
-
 $( document ).ready(function() {
     $("#currentDay").text(moment().format("dddd, MMMM Do"));
     for (let i = 9; i < 18; i++) {
